@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>جمعية واعدون للطفولة</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Cairo', 'Tahoma', sans-serif;
+            background-color: #f8f8fa;
+            color: #333;
+            line-height: 1.8;
+        }
+        header {
+            background-color: #6c2c91;
+            padding: 15px 5%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: white;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+        header img {
+            height: 55px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .hero {
+            background: linear-gradient(rgba(108,44,145,0.8), rgba(108,44,145,0.8)), url('https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9') center/cover no-repeat;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+        .hero h1 {
+            font-size: 36px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 20px;
+            max-width: 600px;
+            margin: auto;
+        }
+        .section {
+            padding: 50px 8%;
+            background-color: white;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            color: #6c2c91;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .goals ul {
+            list-style: none;
+            padding: 0;
+            text-align: center;
+        }
+        .goals li {
+            background-color: #f2eaff;
+            margin: 10px auto;
+            padding: 12px;
+            border-radius: 8px;
+            max-width: 600px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+        }
+        .programs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .card {
+            background-color: #fafafa;
+            padding: 20px;
+            border-radius: 10px;
+            width: 280px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+        .card:hover {
+            transform: scale(1.05);
+        }
+        .donate {
+            text-align: center;
+            background-color: #f9f5ff;
+            padding: 40px 20px;
+            border-radius: 10px;
+        }
+        .donate-btn {
+            display: inline-block;
+            padding: 14px 28px;
+            background-color: #6c2c91;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 6px;
+            transition: 0.3s;
+        }
+        .donate-btn:hover {
+            background-color: #53206d;
+        }
+        footer {
+            background-color: #6c2c91;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+            font-family: inherit;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #6c2c91;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #53206d;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="شعار جمعية واعدون">
+        <nav>
+            <a href="#about">من نحن</a>
+            <a href="#goals">الأهداف</a>
+            <a href="#programs">برامجنا</a>
+            <a href="#donate">تبرع الآن</a>
+            <a href="#contact">تواصل معنا</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>جمعية واعدون للطفولة</h1>
+        <p>نعمل على تمكين الأطفال وبناء جيل واعد من خلال البرامج التربوية والتنموية وفق رؤية 2030.</p>
+    </section>
+
+    <section id="about" class="section">
+        <h2>من نحن</h2>
+        <p>جمعية واعدون للطفولة هي جمعية غير ربحية تعمل على تمكين الطفل والقائمين على شؤونه ببرامج نوعية تنمّي القدرات وتغذّي الاحتياج لتصنع جيلاً واعداً متميزاً.</p>
+        <p><b>رؤيتنا:</b> أطفال مستقرون ذوو مهارات عالية قادرون على تحقيق إمكانياتهم الكاملة واستثمار قدراتهم لبناء مستقبل مشرق.</p>
+        <p><b>رسالتنا:</b> تمكين الطفل والقائمين على شؤونه عبر برامج نوعية ومبادرات متميزة.</p>
+    </section>
+
+    <section id="goals" class="section goals">
+        <h2>أهدافنا</h2>
+        <ul>
+            <li>توعية المجتمع بمرحلة الطفولة واحتياجاتها ومشكلاتها.</li>
+            <li>تمكين المربين من الأدوات والوسائل الحديثة في تربية الطفل.</li>
+            <li>تقديم البرامج التربوية والمهارية للطفل.</li>
+            <li>تعزيز قدرات الطفل في الجوانب المعرفية والسلوكية.</li>
+            <li>تأهيل العاملين المتخصصين في مجال الطفولة.</li>
+        </ul>
+    </section>
+
+    <section id="programs" class="section">
+        <h2>برامجنا</h2>
+        <div class="programs">
+            <div class="card">
+                <h3>برنامج الموهوبين</h3>
+                <p>اكتشاف وتنمية مهارات الأطفال الموهوبين عبر ورش عمل متخصصة.</p>
+            </div>
+            <div class="card">
+                <h3>برنامج التوعية الأسرية</h3>
+                <p>تثقيف الأسر حول أساليب التربية الإيجابية لبناء جيل سليم.</p>
+            </div>
+            <div class="card">
+                <h3>برنامج دعم التعليم المبكر</h3>
+                <p>تهيئة الأطفال للالتحاق بالتعليم المدرسي عبر برامج نوعية.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="donate" class="section donate">
+        <h2>تبرع الآن</h2>
+        <p>ساهم معنا في صناعة مستقبل أفضل لأطفالنا</p>
+        <a class="donate-btn" href="https://ehsan.sa/" target="_blank">تبرع عبر منصة إحسان</a>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>تواصل معنا</h2>
+        <form>
+            <input type="text" placeholder="الاسم" required>
+            <input type="email" placeholder="البريد الإلكتروني" required>
+            <textarea placeholder="رسالتك" rows="4" required></textarea>
+            <button type="submit">إرسال</button>
+        </form>
+        <p>📍 عسير، المملكة العربية السعودية</p>
+        <p>📞 8001247000</p>
+        <p>✉️ info@waedon.org</p>
+    </section>
+
+    <footer>
+        جميع الحقوق محفوظة © 2025 جمعية واعدون للطفولة
+    </footer>
+</body>
+</html>
